@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap",
-  "version": "1.0.0",
+  "version": "8.9.0",
   "description": "Basic skeleton codebase for React with Bootstrap applications.",
   "scripts": {
     "postinstall": "cp env.example.js env.js",

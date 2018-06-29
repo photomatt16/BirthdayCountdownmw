@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Button = (title) => {
     return (
-        <button className="button">
+        <button className="button" onCLick={callback}>
              {title}
         </button>    
     )

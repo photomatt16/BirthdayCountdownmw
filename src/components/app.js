@@ -24,11 +24,13 @@ export default class App extends Component {
         minutes: 0,
         seconds: 0
       }
-    }
+    };
+    this.handleGenerate = this.handleGenerate.bind(this);
   }
 
   handleChange = function(date) {
     console.log('APP JS HANDLE CHANGE', date._d);
+    clearInterval(this.timer);
     this.setState({
       startDate: date
     });
